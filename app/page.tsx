@@ -39,7 +39,7 @@ export default function Home() {
             solutions. Explore my portfolio to see how I solve problems,
             create impactful projects, and help clients achieve their goals.
           </p>
-          <Link href="#features">
+          <Link href="/projects">
             <Button
               size="lg"
               className="bg-red-accent hover:bg-purple-accent text-white text-lg px-4 md:px-8 py-2 md:py-4"
