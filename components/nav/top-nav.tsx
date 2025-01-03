@@ -14,7 +14,7 @@ import Image from "next/image";
 
 export default function TopNav() {
   return (
-    <Menubar className="flex items-center rounded-none">
+    <Menubar className="sticky top-0 z-50 flex items-center rounded-none">
       <div className="flex-none">
         <MenubarMenu>
           <Link href="/">
