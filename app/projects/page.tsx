@@ -8,15 +8,15 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-export default function projects() {
+export default function Projects() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 px-6">
-            <Card className="">
+      <Card className="hover:shadow-lg hover:scale-105 transition-transform duration-300">
         <CardHeader>
           <CardTitle>AI Local Business Directory App</CardTitle>
           <CardContent>NextJS | MongoDB | Clerk | Tailwind</CardContent>
           <CardDescription>
-            a dynamic platform designed to connect users with local businesses
+          a dynamic platform designed to connect users with local businesses
             effortlessly. By leveraging advanced AI-powered features, the app
             provides personalized recommendations based on user preferences and
             location. Users can explore a wide range of nearby businesses, view
@@ -29,7 +29,7 @@ export default function projects() {
         </CardHeader>
         <CardFooter className="flex justify-between">
           <a
-            href="https://github.com/your-github-repo"
+            href="https://github.com/Yun8caiii/AI-business-finder-directory"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700"
@@ -46,12 +46,13 @@ export default function projects() {
           </a>
         </CardFooter>
       </Card>
-      <Card className="">
+
+      <Card className="hover:shadow-lg hover:scale-105 transition-transform duration-300">
         <CardHeader>
-          <CardTitle className="">TasteMates</CardTitle>
+          <CardTitle>TasteMates</CardTitle>
           <CardContent>Typescript | NextJS | ConvexDB | Node</CardContent>
           <CardDescription>
-            The dating application is a unique platform that connects people
+          The dating application is a unique platform that connects people
             through their shared love of food. It helps users discover potential
             matches based on their favorite cuisines, dining preferences, and
             local spots, making connections feel meaningful and enjoyable. By
@@ -80,12 +81,13 @@ export default function projects() {
           </a>
         </CardFooter>
       </Card>
-      <Card className="">
+
+      <Card className="hover:shadow-lg hover:scale-105 transition-transform duration-300">
         <CardHeader>
           <CardTitle>Forecastly</CardTitle>
           <CardContent>Javascript | ReactNative | Expo | JSX</CardContent>
           <CardDescription>
-            I developed a user-friendly weather monitor application for both iOS
+          I developed a user-friendly weather monitor application for both iOS
             and Android platforms, offering a seamless and intuitive experience
             for users. The app provides real-time weather updates and
             location-based insights, ensuring users have access to accurate and
@@ -113,12 +115,13 @@ export default function projects() {
           </a>
         </CardFooter>
       </Card>
-      <Card className="">
+
+      <Card className="hover:shadow-lg hover:scale-105 transition-transform duration-300">
         <CardHeader>
           <CardTitle>Fooder</CardTitle>
           <CardContent>JS | HTML5 | CSS3</CardContent>
           <CardDescription>
-            Fooder is a food discovery service designed to connect users with
+          Fooder is a food discovery service designed to connect users with
             the closest restaurants based on their location. As the front-end
             lead, I crafted an intuitive user interface and ensured the design
             provided a seamless and enjoyable experience for users. By
@@ -146,14 +149,13 @@ export default function projects() {
           </a>
         </CardFooter>
       </Card>
-      <Card className="">
+
+      <Card className="hover:shadow-lg hover:scale-105 transition-transform duration-300">
         <CardHeader>
           <CardTitle>Six-axis Glove Controlled Robotic Arm</CardTitle>
-          <CardContent>
-            Arduino | RaspberryPi | Python | C++ | TactigonOne
-          </CardContent>
+          <CardContent>Arduino | RaspberryPi | Python | C++ | TactigonOne</CardContent>
           <CardDescription>
-            Engineered a wirelessly controlled robotic arm using a customized
+          Engineered a wirelessly controlled robotic arm using a customized
             glove interface, leveraging Tactigon One to transmit precise
             coordinates and orientation via Bluetooth Low Energy technology.
             Developed a robust framework for accurate motor activation and
@@ -183,12 +185,13 @@ export default function projects() {
           </a>
         </CardFooter>
       </Card>
-      <Card className="">
+
+      <Card className="hover:shadow-lg hover:scale-105 transition-transform duration-300">
         <CardHeader>
           <CardTitle>IOT Smart Vent</CardTitle>
           <CardContent>Arduino | Xcode | Swift | C++</CardContent>
           <CardDescription>
-            Developed an IoT-enabled smart vent system with seamless remote
+          Developed an IoT-enabled smart vent system with seamless remote
             management through an advanced smart application built in Xcode.
             Programmed automated serial communication between the ESP8266 and a
             microcontroller for robust and efficient data exchange. Designed and
@@ -216,12 +219,13 @@ export default function projects() {
           </a>
         </CardFooter>
       </Card>
-      <Card className="">
+
+      <Card className="hover:shadow-lg hover:scale-105 transition-transform duration-300">
         <CardHeader>
           <CardTitle>Traffic Light Controller</CardTitle>
           <CardContent>Nexys A7-100T | VHDL </CardContent>
           <CardDescription>
-            Developed a traffic light controller using the Nexys A7-100T FPGA
+          Developed a traffic light controller using the Nexys A7-100T FPGA
             and VHDL, implementing a finite state machine for real-time
             synchronization and designing interconnected data structures.
             Diagnosed and resolved complex issues affecting functionality and
