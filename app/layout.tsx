@@ -1,22 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/context/theme";
-import TopNav from "@/components/nav/top-nav";
 
-const geistSans = Geist({
+
+const inter = Inter({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Yun Cai :)",
-  description: "Yun Cai Portfolio",
+  title: "Yun Cai Software Engineer",
+  description: "Yun Cai Personal Website",
 };
 
 export default function RootLayout({
@@ -26,15 +21,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className={inter.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <TopNav/>
-          <main>{children}</main>
+          <main>
+            {children}</main>
         </ThemeProvider>
       </body>
     </html>
