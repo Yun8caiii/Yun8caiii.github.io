@@ -19,7 +19,7 @@ export default function Home() {
       </p>
     </div>
 
-    <div className="relative min-h-screen bg-gray-100 dark:bg-black text-gray-900 dark:text-gray-100">
+    <div className="relative min-h-screen bg-black text-gray-900 dark:text-gray-100">
     <Spotlight
         className="fixed top-40 left-20 md:left-80 md:top-20"
         fill="white"
