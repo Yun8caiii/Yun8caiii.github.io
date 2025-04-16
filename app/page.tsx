@@ -44,7 +44,7 @@ function Navbar({ className }: { className?: string }) {
         <HoveredLink href="#projects">Projects</HoveredLink>
         <HoveredLink href="https://medium.com/@yun8caiii">Blogs</HoveredLink>
         <HoveredLink href="/contact">Contact</HoveredLink>
-        <HoveredLink href="https://docs.google.com/document/d/1f3-ErB9qMv5Hu2YMi4JRlhM0pJHN7P2I1RhQ4kN_1oo/edit?tab=t.0" >Resume</HoveredLink>
+        <HoveredLink href="https://docs.google.com/document/d/1VBhy7bRTChYgSvOyLLQv807290PSWG81/edit?usp=sharing&ouid=103728162006031366965&rtpof=true&sd=true" >Resume</HoveredLink>
       </Menu>
     </div>
   );
